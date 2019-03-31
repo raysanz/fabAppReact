@@ -4,17 +4,8 @@ import './App.css';
 import Navigation from './Components/navigation';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselPage from "./Components/carousel"
+import Home from "./Components/homepage"
 
-
-const Home = () => (
-  <div>
-    <div class="offerBar container">
-      <span class="thin">NEW VIP OFFER</span>
-      <span class="thick">50% off Site-Wide</span>
-    </div>
-    <CarouselPage />
-  </div>
-)
 
 const About = () => (
   <div>
