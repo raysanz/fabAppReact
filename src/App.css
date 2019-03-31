@@ -30,3 +30,27 @@
     transform: rotate(360deg);
   }
 }
+
+.offerBar{
+  display: block;
+  background-color: #f9859d;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.thin{
+  font-weight: 300;
+  font-size: .75em;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: .05em;
+}
+
+.thick{
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 1.25em;
+  display: inline;
+  vertical-align: middle;
+}
