@@ -1,12 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import FormContainer from './formContainer'
 
 
 const Contact = () => (
-    <div class="offerBar container">
-        ask away
-    </div>
-
+    <FormContainer />
 )
 
 export default Contact;

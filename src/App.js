@@ -23,7 +23,7 @@ class App extends Component {
           <Navigation />
           <div>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={Contact} />
+            <Route exact path="/contact" component={Contact} />
 
           </div>
         </div>

@@ -22,7 +22,7 @@ class Navigation extends React.Component {
                         </li>
 
                         <li className="nav-link active">
-                            <Link to="/about" className="nav-link">
+                            <Link to="/contact" className="nav-link">
                                 ABOUT
                                 </Link>
                         </li>
