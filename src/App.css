@@ -54,3 +54,8 @@
   display: inline;
   vertical-align: middle;
 }
+
+.offerBox{
+  margin: 4em auto 5em;
+  display: block;
+}
