@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Button, Row, Col, Container, Jumbotron, Card } from 'react-bootstrap';
 
 import CarouselPage from "../Components/carousel"
-
+import tshirtImage from "../catalog_detail_image.jpg"
 
 const Home = () => (
     <div className="container">
@@ -28,7 +28,7 @@ const Home = () => (
                 {/* IMAGE 1 */}
                 <Col>
                     <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={tshirtImage} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -43,7 +43,7 @@ const Home = () => (
                 {/* IMAGE 2 */}
                 <Col>
                     <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={tshirtImage} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -58,7 +58,7 @@ const Home = () => (
                 {/* IMAGE 3 */}
                 <Col>
                     <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={tshirtImage} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -73,7 +73,7 @@ const Home = () => (
                 {/* IMAGE 4 */}
                 <Col>
                     <Card s>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={tshirtImage} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>

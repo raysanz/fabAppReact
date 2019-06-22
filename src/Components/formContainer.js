@@ -42,8 +42,8 @@ class FormContainer extends Component {
                                 First name
                   </label>
                             <input
-                                value={this.state.fname}
-                                name="fname"
+                                value={this.state.firstName}
+                                name="firstName"
                                 onChange={this.changeHandler}
                                 type="text"
                                 id="defaultFormRegisterNameEx"
@@ -58,13 +58,13 @@ class FormContainer extends Component {
                                 htmlFor="defaultFormRegisterEmailEx2"
                                 className="grey-text"
                             >
-                                Last name
+                                Age
                   </label>
                             <input
-                                value={this.state.lname}
-                                name="lname"
+                                value={this.state.age}
+                                name="age"
                                 onChange={this.changeHandler}
-                                type="text"
+                                type="number"
                                 id="defaultFormRegisterEmailEx2"
                                 className="form-control"
                                 placeholder="Last name"
@@ -73,24 +73,21 @@ class FormContainer extends Component {
                             <div className="valid-feedback">Looks good!</div>
                         </MDBCol>
                         <MDBCol md="4" className="mb-3">
-                            <label
+                            {this.state.age > 14 && <label
                                 htmlFor="defaultFormRegisterConfirmEx3"
                                 className="grey-text"
                             >
                                 Email
-                  </label>
+                  
                             <input
                                 value={this.state.email}
                                 onChange={this.changeHandler}
                                 type="email"
-                                id="defaultFormRegisterConfirmEx3"
                                 className="form-control"
                                 name="email"
                                 placeholder="Your Email address"
-                            />
-                            <small id="emailHelp" className="form-text text-muted">
-                                We'll never share your email with anyone else.
-                  </small>
+                            /> </label>}
+                            
                         </MDBCol>
                     </MDBRow>
                     <MDBRow>
